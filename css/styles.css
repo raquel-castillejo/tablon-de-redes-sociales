@@ -1,0 +1,265 @@
+/* 
+colors: 
+  body background: #2a2b37
+  card background: #252a41
+  green: #1db489
+  red: #dc414c
+  facebook-color: #198ff5
+  twitter-color: #1ca0f2
+  instagram-color: #fdc468
+  youtube-color: #c4032a
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e202a;
+  min-height: 100%;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 900px;
+}
+
+/* ------------------------ */
+/* ------------------------ */
+
+.exercise {
+  color: white;
+
+  position: relative;
+  margin: auto;
+  width: 900px;
+  height: 469.633px;
+}
+
+.header {
+  height: 150px;
+  width: 880px;
+  margin: 10px;
+
+  border-radius: 10px;
+  background-color: #252a41;
+
+  position: relative;
+
+  text-align: left;
+}
+
+.title {
+  font-size: 24px;
+
+  position: absolute;
+  top: 25px;
+  left: 100px;
+}
+
+.total-followers {
+  font-size: 12px;
+
+  position: absolute;
+  top: 70px;
+  left: 100px;
+}
+
+
+
+/* GENERAL INFO CARDS */
+/* ****************** */
+
+.card-general {
+  position: absolute;
+  top: 120px;
+
+  width: 160px;
+  height: 160px;
+
+  background-color: #252a41;  
+  border-radius: 3px;
+  border-top: 3px solid white;
+}
+
+.rrss-icon {
+  width: 16px;
+  height: auto;
+
+  position: absolute;
+  top: 20px;
+  left: 45px;
+}
+
+.account-name {
+  font-size: 10px;
+
+  position: absolute;
+  top: 13px;
+  left: 70px;
+}
+
+.followers-number {
+  font-size: 40px;
+  text-align: center;
+
+  position: relative;
+  top: 15px;
+}
+
+.followers-word {
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+
+  position:relative;
+  top: -20px;
+}
+
+.new-followers,
+.lost-followers {
+  font-size: 10px;
+
+  position: absolute;
+  top: 120px;
+  left: 65px;
+}
+
+.new-followers {
+  color: #1db489;
+}
+
+.lost-followers {
+  color: #dc414c;
+}
+
+.follow-icon {
+  position: absolute;
+  top: 132px;
+  left: 52px;
+}
+
+.card-general-fb {
+  border-top-color: #198ff5;
+}
+
+.card-general-tw {
+  border-top-color: #1ca0f2;
+}
+
+.card-general-ig {
+  border-top-color: #fdc468;
+}
+
+.card-general-yt{
+  border-top-color: #c4032a;
+}
+
+
+
+/* OVERVIEW CARDS */
+/* ************** */
+
+.overview {
+  position: absolute;
+  top: 290px;
+  left: 110px;
+
+  font-size: 16px;
+}
+
+.card-overview {
+  position: absolute;
+  top: 335px;
+
+  width: 160px;
+  height: 85px;
+
+  background-color: #252a41;  
+  border-radius: 3px;
+}
+
+.rrss-interaction {
+  position: absolute;
+  top: 2px;
+  left: 15px;
+
+  font-size: 12px;
+}
+
+.overview-icon {
+  width: 16px;
+  height: auto;
+
+  position: absolute;
+  top: 10px;
+  left: 130px;
+}
+
+.interaction-number {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+
+  font-size: 30px;
+}
+
+.interaction-variation {
+  position: absolute;
+  top: 52px;
+  left: 100px;
+
+  color: #1db489;
+
+  font-size: 10px;
+}
+
+.interaction-variation-lost {
+  color: #dc414c;
+}
+
+.interaction-variation-number-fb {
+  position: absolute;
+  left: 32px;
+}
+
+.interaction-variation-number-tw {
+  position: absolute;
+  left: 22px;
+}
+
+.interaction-variation-number-ig {
+  position: absolute;
+  left: 18px;
+}
+
+.interaction-variation-number-yt {
+  position: absolute;
+  left: 28px;
+}
+
+
+
+/* CARDS POSITION */
+/* ************** */
+
+.card-general-fb,
+.card-overview-fb {
+  left: 110px;
+}
+
+.card-general-tw,
+.card-overview-tw {
+  left: calc(110px + 20px + 160px);
+}
+
+.card-general-ig,
+.card-overview-ig {
+  left: calc(110px + 20px + 160px + 20px + 160px);
+}
+
+.card-general-yt,
+.card-overview-yt {
+  left: calc(110px + 20px + 160px + 20px + 160px + 20px + 160px);
+}

@@ -4,7 +4,7 @@
 
 ## Ejemplo en vivo
 
-- [URL de github pages de este proyecto](https://github.com/raquel-castillejo/002-position2/blob/main/assets/images/demo.png)
+- [URL de github pages de este proyecto](https://raquel-castillejo.github.io/002-position2/)
 
 ## Descripción 📑
 

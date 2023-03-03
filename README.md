@@ -1,6 +1,6 @@
 # Práctica con position
 
-![Imagen del proyecto](https://github.com/raquel-castillejo/001-position1/blob/main/assets/images/demo-2.jpg)
+![Imagen del proyecto](https://github.com/raquel-castillejo/002-position2/blob/main/assets/images/demo.png)
 
 ## Ejemplo en vivo
 

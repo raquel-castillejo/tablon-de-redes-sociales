@@ -1,4 +1,5 @@
-# Práctica con position
+# Tablón de redes sociales
+## Práctica con position 2
 
 ![Imagen del proyecto](https://github.com/raquel-castillejo/002-position2/blob/main/assets/images/demo.png)
 
